@@ -7,43 +7,48 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container"></div>
-    <div class="maincontainer">
-      <!-- 이름 물어보기 -->
-      <form class="hidden" id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="what is your name?"
-        />
-        <input type="submit" value="Log In" />
-      </form>
-    </div>
-    <!-- 이름 띄우기 -->
-    <div class="footer">
-      <h1 id="greeting" class="hidden"></h1>
-      <!-- 랜덤명언 -->
-      <div id="quote">
-        <span></span>
-        <span></span>
+    <div id="wrap">
+      <div class="headcontainer">
+        <!-- 이름 물어보기 -->
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="what is your name?"
+          />
+          <input type="submit" value="Log In" />
+        </form>
+
+        <!-- 이름 띄우기 -->
+        <h1 id="greeting" class="hidden"></h1>
+
+        <!-- 시계 -->
+        <h2 id="clock">00:00:00</h2>
       </div>
+
+      <div class="todolist">
+      <!-- todo리스트 -->
+      <p>TODOLIST</p>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Write a To do and Press Enter"
+          ,
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
     </div>
 
-    <!-- todo리스트 -->
-    <form id="todo-form">
-      <input
-        type="text"
-        placeholder="Write a To do and Press Enter"
-        ,
-        required
-      />
-    </form>
-    <!-- 시계 -->
-    <h2 id="clock">00:00:00</h2>
-    <ul id="todo-list"></ul>
-    <!-- 날씨 -->
-    <div id="weather"><span></span><span></span></div>
+            <!-- 날씨 -->
+            <div id="weather"><span></span><span></span></div>
+      <!-- 랜덤명언 -->
+      
+      <div class="quote" id="quote">
+        <span></span>
+        <span></span>
+    </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>

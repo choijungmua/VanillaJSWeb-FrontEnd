@@ -7,47 +7,36 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div id="wrap">
-      <div class="headcontainer">
-        <!-- 이름 물어보기 -->
-        <form class="hidden" id="login-form">
-          <input
-            required
-            maxlength="15"
-            type="text"
-            placeholder="what is your name?"
-          />
-          <input type="submit" value="Log In" />
-        </form>
+    <!-- 날씨 -->
+    <div class="weather" id="weather"><span></span><span></span></div>
+    <!-- 이름 물어보기 -->
+    <div class="name">
+      <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="name?" />
+        <input type="submit" value="Log In" />
+      </form>
 
-        <!-- 이름 띄우기 -->
-        <h1 id="greeting" class="hidden"></h1>
+      <!-- 이름 띄우기 -->
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
 
-        <!-- 시계 -->
-        <h2 id="clock">00:00:00</h2>
-      </div>
-
-      <div class="todolist">
-      <!-- todo리스트 -->
-      <p>TODOLIST</p>
+    <!-- 시계 -->
+    <div class="clock">
+      <h2 id="clock">00:00:00</h2>
+    </div>
+    <!-- todo리스트 -->
+    <div class="todolist">
       <form id="todo-form">
-        <input
-          type="text"
-          placeholder="Write a To do and Press Enter"
-          ,
-          required
-        />
+        <input type="text" placeholder="Write To do List . . . " , required />
       </form>
       <ul id="todo-list"></ul>
     </div>
 
-            <!-- 날씨 -->
-            <div id="weather"><span></span><span></span></div>
-      <!-- 랜덤명언 -->
-      
-      <div class="quote" id="quote">
-        <span></span>
-        <span></span>
+    <!-- 랜덤명언 -->
+
+    <div class="quote" id="quote">
+      <span></span>
+      <span></span>
     </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>

@@ -1,3 +1,9 @@
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d059d311-8753-4d8b-aa88-696124881764/a96e248b-d4a1-40ac-8295-9ee6de2091e5/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d059d311-8753-4d8b-aa88-696124881764/2ec4b478-690e-4bf2-b239-c234dc423a02/Untitled.png)
+## 바닐라 자바스크립트를 이용한 웹입니다.
+--- 
+>기능
+<br />
+☑️ 시계
+☑️ 랜덤 명언
+☑️ 랜덤 배경화면
+☑️ 현재 위치의 날씨
+☑️ 로그인기능 ( 완전한 구현은 아니지만 local Storage에 저장 )

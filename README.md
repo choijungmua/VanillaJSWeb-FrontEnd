@@ -1,19 +1,21 @@
-## 바닐라 자바스크립트를 이용한 웹입니다.
-### 기능
-<br />
-<div>
+<div align="center">
+  
+## Javascript Web
+
+
+<div align="left">
   
 ☑️ 시계
-<br />
 
 ☑️ 랜덤 명언
-<br />
 
 ☑️ 랜덤 배경화면
-<br />
 
 ☑️ 현재 위치의 날씨
-<br />
 
-☑️ 로그인기능 ( 완전한 구현은 아니지만 local Storage에 저장 )
+☑️ 백엔드 없는 로그인기능 
+
+☑️ 투두리스트
+
+</div>
 </div>
